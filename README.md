@@ -1,6 +1,6 @@
 # Malcolm Lismore Photography 📸
 
-A premium, fully responsive, and modern portfolio website for **Malcolm Lismore**, a professional freelance photographer based on the rugged North West coast of Scotland. The site showcases his work across diverse categories, features pricing options, offers a contact request portal, and includes an interactive client review system.
+A premium, fully responsive, and modern portfolio website for **Malcolm Lismore**, a professional freelance photographer portfolio.
 ---
 ## 🌟 Key Features
 *   **Sleek Sidebar Navigation:** A modern sidebar layout housing logo branding, page links, and footer licensing, offering seamless navigation.
