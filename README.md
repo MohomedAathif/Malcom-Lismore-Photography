@@ -57,51 +57,7 @@ Follow these simple steps to run the portfolio website on your local machine:
 2. Install the **Live Server** extension.
 3. Click the **Go Live** button in the status bar at the bottom right corner of VS Code.
 4. The site will launch automatically at `http://127.0.5.1:5500/index.html`.
-### Option 2: Python HTTP Server
-If you have Python installed, launch a local server via terminal from the project's root folder:
-```bash
-# Python 3
-python -m http.server 8000
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-Open your browser and navigate to `http://localhost:8000`.
-### Option 3: Node.js `http-server`
-Install and launch the server via NPM globally:
-```bash
-npm install -g http-server
-http-server -p 8080
-```
-Then navigate to `http://localhost:8080` in your web browser.
 ---
-## 💡 Customization Guides
-### Updating Pricing
-Open `pricing.html` and modify the price and description within the `.pricing` columns:
-```html
-<div class="col-md-4 pricing">
-    <!-- ... -->
-    <h3>Wedding Photography</h3>
-    <ul>
-        <li><span>Photos</span>Package of 100</li>
-    </ul>
-    <span class="price">$75</span>
-    <!-- ... -->
-</div>
-```
-### Adding Gallery Media
-In `gallery.html`, add items inside the `.row.no-gutters` container:
-```html
-<div class="col-md-4 portfolio-wrap-2">
-    <div class="row no-gutters align-items-center">
-        <div class="img w-100 js-fullheight d-flex align-items-center" style="background-image: url(images/your_new_image.jpg);">
-            <div class="text p-4 p-md-5 ftco-animate">
-                <div class="desc">
-                    <h2 class="mb-4"><a href="#">Category Name</a></h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 ```
 ---
 ## 📜 Credits
